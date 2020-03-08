@@ -20,9 +20,9 @@ public class Nombre {
         // TODO code application logic here
         Scanner sc = new Scanner(System.in);
         String nombre = sc.nextLine();
-        System.out.println("");
+        String apellidos = sc.nextLine();
         int edad = sc.nextInt();
-        System.out.println("hola"+ nombre+"introduzca la edad"+ edad);
+        System.out.println("hola"+ nombre+" "+ edad+ " "+ apellidos);
     }
     
 }
